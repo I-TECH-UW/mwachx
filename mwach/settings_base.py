@@ -44,6 +44,8 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admindocs',
 
+    'django_celery_beat',
+
     'crispy_forms',
     'rest_framework',
 
@@ -189,4 +191,12 @@ FACILITY_CHOICES = (
     ('siaya','Siaya'),
     ('rachuonyo','Rachuonyo'),
     ('riruta','Riruta'),
+)
+
+##
+# Celery Settings
+##
+
+CELERY_IMPORTS = (
+    'mwach.celery',
 )

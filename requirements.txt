@@ -10,3 +10,5 @@ django-filter>=0.10
 openpyxl>=2.2.6
 jsonfield>=1.0.3
 django-picklefield
+celery
+django-celery-beat
